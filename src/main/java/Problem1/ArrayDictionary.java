@@ -45,7 +45,12 @@ public class ArrayDictionary implements Dictionary {
 
     @Override
     public void remove(String key) {
-        // homework
+        boolean[] f = new boolean[key.length() + 1];
+        for(int i=1; i <= key.length(); i++){
+            for(int j=0; j < i; j++){
+                continue;
+            }
+        }
     }
 
     @Override
